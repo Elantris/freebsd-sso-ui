@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--oc-gray-2);
+}
+
+.page {
+  padding: 2rem 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 40rem;
+  /* background: white; */
+}
+
+@media (max-width: 40rem) {
+  .container {
+    background: white;
+  }
+}
+
+.logout {
+  margin-top: 2rem;
+}
+.logout button {
+  background: var(--oc-red-5);
+}
+.logout button:hover {
+  background: var(--oc-red-4);
+}
